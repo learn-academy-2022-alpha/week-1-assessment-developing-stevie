@@ -22,6 +22,20 @@ const temp2 = 350
 const temp3 = 212
 
 
+ //make a function that takes any given number and tells you if it is above or below boiling point
+//run given vars through to get results "42 is below boiling point"
+
+
+
+if boiling point is 212 = temp them is at is at boiling 
+ var temp = (99)
+ if(temp > 212){
+ console.log(temp,"is above boiling point")
+ } else if(temp < 212){
+  console.log(temp,"is below boiling point")
+ }else{
+ console.log(temp,"is at boiling point")
+ }
 
 
 
@@ -31,10 +45,10 @@ const temp3 = 212
 const myNumbers1 = [3, 7, 0, 36, -9]
 const myNumbers2 = [8, -7, 42, 9, 13]
 
-//console.log(myNumbers1.concat(myNumbers2).length)
+console.log(myNumbers1.concat(myNumbers2).length)
 //log and combine myNumbers1 & myNumbers2--> 
 //output -->[[3, 7, 0, 36, -9, 8, -7, 42, 9, 13
-//.length counts the number of indexes -->
+//length counts the number of indexes -->
 //prints the length of the array instead of the output above making
 //output -->10
 
@@ -42,7 +56,7 @@ const myNumbers2 = [8, -7, 42, 9, 13]
 
 const currentCohort = "Alpha 2022"
 
-//console.log(currentCohort.split("").reverse().join(""));
+console.log(currentCohort.split("").reverse().join(""));
 
 //logs value of currentCohort >
 //"splits" the values of the string into a index of characters
@@ -56,13 +70,13 @@ const myArray = [13, 34, 5, 10, 27, 42]
 
 
 
-for(let i = 0; i < myArray.length; i++){
-    if(myArray.indexOf(i) % 2 !== 0){
-      console.log("odd")
-    } else {
+ for(let i = 0; i < myArray.length; i++){
+    if(myArray[i] % 2 === 0){
       console.log("even")
-    }
-  }
+    } else {
+       console.log("odd")
+     }
+   }
 
 // currently working the way i want to but not getting the correct math
 //let i equal zero and is 0
@@ -85,4 +99,31 @@ const number3 = 27
 const number4 = 24
 
 
+//create a funtion that takes in a set of any two numbs 
+//subtracts the smaller number
+//from the larger
+//console logs the expexted output
 
+
+
+if(number1 < number2){ 
+console.log(number2 - number1)
+}
+  else if(number1 > number2){
+console.log(number1 - number2)
+ }
+
+else{
+  console.log("the numbers are not equal")
+}
+
+  
+ if(number4 > number3){
+  console.log(number3 - number4)
+   }
+   else if(number4 < number3){
+    console.log(number3 - number4)
+     }
+     else{
+      console.log("the numbers are not equal")
+    }
